@@ -10,7 +10,7 @@ import {
 export default function SearchFilter() {
   const dispatch = useDispatch();
   const filter = useSelector(state => state.filter);
-  console.log(filter)
+
   
   return (
     <Label>

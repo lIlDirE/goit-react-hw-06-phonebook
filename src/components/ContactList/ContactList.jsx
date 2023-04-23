@@ -10,7 +10,7 @@ const ContactList = () => {
 
   return (
     <>
-		{console.log(filter)}
+
       {visibleContacts.map(({ id, name, number }) => (
         <ContactListElement id={id} name={name} number={number} key={id} />
       ))}
